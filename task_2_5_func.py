@@ -1,7 +1,6 @@
 list_of_data=[57.8, 46.51, 97.09, 43.44, 44.76, 88, 12, 66.07, 76, 99]
 print(list_of_data)
 def price_func(list_name,condition):
-    global rub,penny
     i = 0
     while i < len(list_name):
         price = float(list_name[i])
